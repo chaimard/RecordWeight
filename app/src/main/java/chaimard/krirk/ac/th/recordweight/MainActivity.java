@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
 
         myManager = new MyManager(MainActivity.this);
 
+//        Test Add User
+        myManager.addValueToUserrTable("nick",
+                "start", "weight", "height",
+                "gender", "age");
 
 
 
